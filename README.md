@@ -155,9 +155,9 @@ If you like this project please leave a
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse and youtube for help
-
+<a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh icons created by Arkinasi - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by Kirill Kazachek - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/enter" title="enter icons">Enter icons created by Ferdinand - Flaticon</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->

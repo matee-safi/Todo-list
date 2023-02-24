@@ -1,14 +1,31 @@
-import _ from 'lodash';
 import './style.css';
+import reloadIcon from './refresh.png';
+import enterIcon from './enter.png';
+import moreIcon from './more.png';
 
-function component() {
-  const element = document.createElement('div');
+const refresh = document.querySelector('.refresh');
+refresh.src = reloadIcon;
+const enter = document.querySelector('.enter');
+enter.src = enterIcon;
+const more = document.querySelectorAll('.more');
+more.forEach((img) => {
+  img.src = moreIcon;
+});
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
+const tasks = [
+  {
+    description: '',
+    completed: false,
+    index: 0,
+  },
+];
 
-  return element;
-}
-
-document.body.appendChild(component());
+tasks.forEach((task) => {
+  const list = document.createElement('div');
+  list.classList.add('list-item');
+  list.innerHTML = `
+  <input type="checkbox">
+  <p>${task.description}</p>
+  <img src="" alt="">
+  `;
+});
