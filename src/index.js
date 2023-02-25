@@ -1,19 +1,19 @@
-import "./style.css";
-import reloadIcon from "./images/refresh.png";
-import enterIcon from "./images/enter.png";
-import moreIcon from "./images/more.png";
+import './style.css';
+import reloadIcon from './images/refresh.png';
+import enterIcon from './images/enter.png';
+import moreIcon from './images/more.png';
 
 const tasks = [
   {
-    description: "Create the structure of your project",
+    description: 'Create the structure of your project',
     completed: false,
     index: 0,
   },
 ];
 
 tasks.forEach((task) => {
-  const list = document.createElement("div");
-  list.classList.add("list-item");
+  const list = document.createElement('div');
+  list.classList.add('list-item');
   list.innerHTML = `
   <li class="todo">
     <div>
@@ -22,15 +22,14 @@ tasks.forEach((task) => {
     <img alt="more" class="more">
   </li>
   `;
-  document.querySelector('.last-row').insertAdjacentElement('beforebegin', list)
+  document.querySelector('.last-row').insertAdjacentElement('beforebegin', list);
 });
 
-const refresh = document.querySelector(".refresh");
+const refresh = document.querySelector('.refresh');
 refresh.src = reloadIcon;
-const enter = document.querySelector(".enter");
+const enter = document.querySelector('.enter');
 enter.src = enterIcon;
-const more = document.querySelectorAll(".more");
+const more = document.querySelectorAll('.more');
 more.forEach((img) => {
   img.src = moreIcon;
 });
-
