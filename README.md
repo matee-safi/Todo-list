@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Name] <a name="about-project"></a>
+# 📖 Todo List <a name="about-project"></a>
 
 > 
 
@@ -94,7 +94,9 @@ git clone https://github.com/matee-safi/webpack-demo.git
 
 Install this project with:
 
-npm i
+<code>npm i</code>
+
+<code>npm start</code>
 
 ### Usage
 
