@@ -9,6 +9,7 @@ body {
   background-color: #f6f6f6;
   width: 100vw;
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 main {
@@ -46,11 +47,17 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:checked::after {
   content: "\2713";
   color: rgb(255, 0, 0);
+  border: none;
+  outline: none;
+  font-size: 1.6em;
+  position: relative;
+  bottom: 4px;
 }
 
 .todo div {
   display: flex;
-  gap: 5px;
+  gap: 10px;
+  width: 100%;
 }
 
 .todo p {
@@ -64,16 +71,23 @@ input[type="checkbox"]:checked::after {
   color: rgb(88, 88, 88);
 }
 
-input {
+.task-input {
   border: none;
   font-size: 1em;
   font-style: italic;
   outline: none;
-  width: 95%;
+  width: 100%;
 }
 
-input::placeholder {
+.task-input::placeholder {
   color: rgb(156, 156, 156);
+}
+
+.description-input {
+  border: none;
+  font-size: 0.9em;
+  outline: none;
+  width: 95%;
 }
 
 .last-row {
