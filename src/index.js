@@ -1,7 +1,9 @@
 import './style.css';
 import reloadIcon from './images/refresh.png';
 import enterIcon from './images/enter.png';
-import { enterTask, addItem, refreshList } from './CRUD.js';
+import {
+  enterTask, addItem, refreshList, clearDone,
+} from './CRUD.js';
 
 window.onload = refreshList;
 
@@ -18,3 +20,5 @@ enterTask.addEventListener('keyup', (event) => {
     document.querySelector('.enter').click();
   }
 });
+
+document.querySelector('.clear-btn').addEventListener('click', clearDone);

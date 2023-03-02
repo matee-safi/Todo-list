@@ -57,6 +57,12 @@ export const refreshList = () => {
   });
 };
 
+export const clearDone = () => {
+  lists = lists.filter((t) => !t.completed);
+  setItems(lists);
+  refreshList();
+};
+
 export const enterTask = document.querySelector('.task-input');
 
 export const addItem = () => {

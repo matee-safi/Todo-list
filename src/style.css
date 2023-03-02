@@ -54,6 +54,11 @@ input[type="checkbox"]:checked::after {
   bottom: 4px;
 }
 
+.done {
+  color: gray !important;
+  text-decoration: line-through;
+}
+
 .todo div {
   display: flex;
   gap: 10px;
@@ -88,6 +93,10 @@ input[type="checkbox"]:checked::after {
   font-size: 0.9em;
   outline: none;
   width: 95%;
+}
+
+input[checkbox]:checked {
+  color: gray;
 }
 
 .last-row {
