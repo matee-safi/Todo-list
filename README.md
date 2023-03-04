@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Name\] ](#-name-)
+- [📖 Todo List ](#-todo-list-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not deployed
+- Click here to [View page](https://matee-safi.github.io/Todo-list/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
