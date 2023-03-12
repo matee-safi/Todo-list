@@ -157,11 +157,12 @@ If you like this project please leave a
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a><div> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik"> Freepik </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh icons created by Arkinasi - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by Kirill Kazachek - Flaticon</a>
-<a href="https://www.flaticon.com/free-icons/enter" title="enter icons">Enter icons created by Ferdinand - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/refresh" title="refresh icons">Refresh icons created by Arkinasi - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/more" title="more icons">More icons created by Kirill Kazachek - Flaticon</a><br>
+<a href="https://www.flaticon.com/free-icons/enter" title="enter icons">Enter icons created by Ferdinand - Flaticon</a><br>
+<a href="https://www.flaticon.com/authors/freepik" title="Freepik">Other icons created by Freepik - Flaticon</a>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
